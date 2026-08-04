@@ -8,3 +8,12 @@
 benchmarks/bench-results.json
 /dist/
 .claude/
+
+# Scratch files uvr writes into the working tree when dogfooding the tool in
+# this repo (`uvr init`, `uvr add`, `uvr sync`). Root-anchored on purpose:
+# tests/fixtures/sample_project/uvr.toml is a real fixture and must stay tracked.
+/uvr.toml
+/uvr.lock
+/.uvr/
+/.Rprofile
+/.vscode/
